@@ -2,7 +2,7 @@
 // All your content lives here. Edit freely — nothing below this file needs to change.
 
 export const PROFILE = {
-  name: "Sreyas Rivera",
+  name: "Sreyas",
   role: "Software Engineer",
   location: "Kochi, India",
   blurb:
@@ -97,8 +97,8 @@ export const NOW = [
 export const PROFILE_PHOTO = "/media/sreyas.jpg";
 
 export const CONTACT = {
-  email: "hello@Sreyasrivera.dev",
-  github: "https://github.com/yourhandle",
+  email: "hello@sreyas.sc@gmail.com",
+  github: "https://github.com/sreyas-sc",
   linkedin: "https://linkedin.com/in/yourhandle",
 };
 

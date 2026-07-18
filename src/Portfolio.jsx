@@ -159,7 +159,7 @@ export default function Portfolio() {
           <Linkedin size={16} /> linkedin
         </a>
         <a href="#" className="pf-link">
-          <Mail size={16} /> hello@Sreyasrivera.dev
+          <Mail size={16} /> hello@Sreyas.dev
         </a>
       </footer>
     </div>
