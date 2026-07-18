@@ -1,0 +1,38 @@
+/* src/theme.css */
+/* Import once in main.jsx. Defines the color variables every component reads from. */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root[data-theme="dark"] {
+  --bg: #0b0e14;
+  --surface: #10141c;
+  --surface-2: #171c26;
+  --border: #232a38;
+  --text: #e7eaf1;
+  --text-muted: #8891a3;
+  --accent-pro: #55e6c1;
+  --accent-pro-tint: rgba(85, 230, 193, 0.08);
+  --accent-personal: #f2a65c;
+  --accent-edu: #8aa8ff;
+  --accent-edu-tint: rgba(138, 168, 255, 0.12);
+}
+
+:root[data-theme="light"] {
+  --bg: #f7f8fa;
+  --surface: #ffffff;
+  --surface-2: #eef1f5;
+  --border: #dde1e8;
+  --text: #14181f;
+  --text-muted: #5b6472;
+  --accent-pro: #0f9d78;
+  --accent-pro-tint: rgba(15, 157, 120, 0.1);
+  --accent-personal: #c8791f;
+  --accent-edu: #3e5fd9;
+  --accent-edu-tint: rgba(62, 95, 217, 0.1);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  transition: background 0.25s ease, color 0.25s ease;
+}
