@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 import React from "react";
 import { Mail } from "lucide-react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { CONTACT } from "../data/profile";
 
 export default function Footer() {
@@ -38,6 +38,13 @@ export default function Footer() {
       <a href={`mailto:${CONTACT.email}`} className="pf-link">
         <Mail size={16} /> {CONTACT.email}
       </a>
+      <a href={CONTACT.instagram} className="pf-link">
+        <FaInstagram size={16} /> instagram
+      </a>
+        <a href={`https://wa.me/${CONTACT.whatsapp}`} className="pf-link">
+        <FaWhatsapp size={16} /> whatsapp
+        </a>
+
     </footer>
   );
 }

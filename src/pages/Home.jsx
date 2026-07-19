@@ -97,8 +97,15 @@ function ProfessionalView() {
               <div className="pf-job-dot" />
               <div className="pf-job-body">
                 <div className="pf-job-head">
-                  <h3>{job.role}</h3>
-                  <span className="pf-job-period">{job.period}</span>
+                  <h3>
+                    {job.role}
+                    <span className="pf-duration">
+                        {" · "}
+                        {getDuration(job.start)}
+                    </span>
+                    </h3>
+
+                    <span className="pf-job-period">{job.period}</span>
                 </div>
                 <p className="pf-job-company">{job.company}</p>
                 <p className="pf-job-desc">{job.desc}</p>
@@ -151,6 +158,27 @@ function ProfessionalView() {
       </section>
     </div>
   );
+}
+
+function getDuration(startDate) {
+  if (!startDate) return "";
+
+  const start = new Date(startDate);
+  const now = new Date();
+
+  let years = now.getFullYear() - start.getFullYear();
+  let months = now.getMonth() - start.getMonth();
+
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+
+  const parts = [];
+  if (years) parts.push(`${years} year${years > 1 ? "s" : ""}`);
+  if (months) parts.push(`${months} month${months > 1 ? "s" : ""}`);
+
+  return parts.join(" ");
 }
 
 function PersonalView() {

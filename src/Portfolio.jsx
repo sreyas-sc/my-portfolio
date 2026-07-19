@@ -28,20 +28,23 @@ const PROFILE = {
 
 const EXPERIENCE = [
   {
-    company: "Northwind Labs",
-    role: "Senior Software Engineer",
-    period: "2023 — Present",
+    company: "Williams Lea",
+    role: "Software Engineer",
+    start: "2024-12-01",
+    period: "Dec 2024 — Present",
     desc: "Lead a 4-person team rebuilding the payments pipeline. Cut p99 latency by 63% and moved the fleet to event-driven infra.",
   },
   {
     company: "Fernbank",
     role: "Software Engineer",
+    start: "2023-01-01",
     period: "2021 — 2023",
     desc: "Owned the internal tooling platform used by 200+ engineers. Shipped a self-serve deploy dashboard adopted org-wide.",
   },
   {
     company: "Ridgeline Systems",
     role: "Backend Engineer, Intern → Full-time",
+    start: "2023-01-01",
     period: "2019 — 2021",
     desc: "Built the first version of the notifications service, still running in production today.",
   },
@@ -211,6 +214,33 @@ function ModeSwitch({ mode, setMode }) {
     </div>
   );
 }
+/* ---------------------------------------------------------
+   Date  Cals
+--------------------------------------------------------- */
+
+function getDuration(startDate) {
+  if (!startDate) return "";
+
+  const start = new Date(startDate);
+  if (isNaN(start)) return "";
+
+  const now = new Date();
+
+  let years = now.getFullYear() - start.getFullYear();
+  let months = now.getMonth() - start.getMonth();
+
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+
+  const parts = [];
+
+  if (years) parts.push(`${years} year${years > 1 ? "s" : ""}`);
+  if (months) parts.push(`${months} month${months > 1 ? "s" : ""}`);
+
+  return parts.join(" ");
+}
 
 /* ---------------------------------------------------------
    PROFESSIONAL VIEW
@@ -229,7 +259,21 @@ function ProfessionalView() {
               <div className="pf-job-dot" />
               <div className="pf-job-body">
                 <div className="pf-job-head">
-                  <h3>{job.role}</h3>
+                  <h3>
+                    {job.role}
+                    <span className="pf-duration">
+                      {" · "}
+                      {getDuration(job.start)}
+                    </span>
+                  </h3>
+                  <h3>
+                    {job.role}
+                    <span className="pf-duration">
+                      {" · "}
+                      {getDuration(job.start)}
+                    </span>
+                  </h3>
+
                   <span className="pf-job-period">{job.period}</span>
                 </div>
                 <p className="pf-job-company">{job.company}</p>
@@ -375,6 +419,12 @@ const CSS = `
   margin: 0 0 8px;
   color: var(--text-muted);
   font-size: 15px;
+}
+
+.pf-duration {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .pf-location {

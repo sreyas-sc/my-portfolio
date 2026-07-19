@@ -11,37 +11,51 @@ export const PROFILE = {
 
 export const EXPERIENCE = [
   {
-    company: "Northwind Labs",
-    role: "Senior Software Engineer",
-    period: "2023 — Present",
-    desc: "Lead a 4-person team rebuilding the payments pipeline. Cut p99 latency by 63% and moved the fleet to event-driven infra.",
-  },
-  {
-    company: "Fernbank",
+    company: "Williams Lea",
     role: "Software Engineer",
-    period: "2021 — 2023",
-    desc: "Owned the internal tooling platform used by 200+ engineers. Shipped a self-serve deploy dashboard adopted org-wide.",
+    start: "2024-12-02",
+    period: "Dec 2024 — Present",
+    // desc: "Lead a 4-person team rebuilding the payments pipeline. Cut p99 latency by 63% and moved the fleet to event-driven infra.",
   },
   {
-    company: "Ridgeline Systems",
-    role: "Backend Engineer, Intern → Full-time",
-    period: "2019 — 2021",
-    desc: "Built the first version of the notifications service, still running in production today.",
+    company: "TechFriar",
+    role: "MERN Stack Trainee",
+    period: "Aug - Nov 2025",
+    // desc: "Owned the internal tooling platform used by 200+ engineers. Shipped a self-serve deploy dashboard adopted org-wide.",
+  },
+  {
+    company: "Levantar Solutions",
+    role: "web developer (Part time)",
+    period: "2024",
+    // desc: "Built the first version of the notifications service, still running in production today.",
+  },
+   {
+    company: "ClaySys Technologies",
+    role: "Software Analyst(L3)",
+    period: "May 2021 - Oct 2022",
+    // desc: "Built the first version of the notifications service, still running in production today.",
   },
 ];
 
 export const EDUCATION = [
   {
-    school: "University of Kerala",
-    degree: "B.Tech in Computer Science",
-    period: "2015 — 2019",
-    desc: "Focused on distributed systems and databases. Capstone project was a mini key-value store with Raft-based replication.",
+    school: "College of Engineering, Trivandrum",
+    degree: "MCA",  
+    period: "Oct 2022 — Jun 2024",
+    desc: "Graduated with a Master of Computer Applications (MCA) from the College of Engineering, Trivandrum, Kerala, India. The program focused on advanced topics in computer science, including software development, database management, and network security.",
   },
+
   {
-    school: "Coursera / DeepLearning.AI",
-    degree: "Machine Learning Specialization",
-    period: "2022",
-    desc: "Completed alongside full-time work — mostly to understand the ML infra work Northwind Labs was starting to take on.",
+    school: "Naipunnya School of Management, Cherthala",
+    degree: "BCA",
+    period: "Jun 2018 — Apr 2021",
+    desc: "Graduated with a Bachelor of Computer Applications (BCA) from Naipunnya School of Management, Cherthala, Kerala, India. The program provided a strong foundation in computer science, covering areas such as programming, web development, and database management.",
+  },
+
+    {
+    school: "H.S.S Kandamangalam, Cherthala",
+    degree: "DHSE",
+    period: "Apr 2016 — Jun 2018",
   },
 ];
 
@@ -75,6 +89,26 @@ export const SKILLS = [
   "AWS",
   "Docker",
   "GraphQL",
+  "Python",
+  "Java",
+  "C++",
+  "HTML/CSS",
+  "MongoDB",
+  "Express.js",
+  "Next.js",
+  "Redux",
+  "RESTful APIs",
+  "Git/GitHub",
+  "Agile/Scrum Methodologies",
+  "Unit Testing",
+  "CI/CD",
+  "Cloud Computing",
+  "Microservices Architecture",
+  "Web Security Best Practices",
+  "Performance Optimization",
+  "jenkins",
+  "Kubernetes",
+  "Marklogic",
 ];
 
 export const HOBBIES = [
@@ -97,9 +131,11 @@ export const NOW = [
 export const PROFILE_PHOTO = "/media/sreyas.jpg";
 
 export const CONTACT = {
-  email: "hello@sreyas.sc@gmail.com",
+  email: "sreyas.sc@gmail.com",
   github: "https://github.com/sreyas-sc",
-  linkedin: "https://linkedin.com/in/yourhandle",
+  linkedin: "https://linkedin.com/in/sreyas-sc",
+  instagram: "https://instagram.com/sreyas.s_",
+  whatsapp: "wa.me/919446155555",
 };
 
 // Media shown in the Instagram-style gallery when a hobby card is clicked.
