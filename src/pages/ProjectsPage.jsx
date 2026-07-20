@@ -7,7 +7,7 @@ export default function ProjectsPage() {
   return (
     <div className="pp-root">
       <style>{`
-        .pp-root { max-width: 780px; margin: 0 auto; padding: 32px 24px 64px; color: var(--text); font-family: 'Inter', sans-serif; }
+        .pp-root { max-width: 1080px; margin: 0 auto; padding: 32px 24px 64px; color: var(--text); font-family: 'Inter', sans-serif; }
         .pp-root h1 { font-family: 'JetBrains Mono', monospace; font-size: 22px; margin: 0 0 28px; }
         .pp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
         .pp-card { display: block; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 18px; text-decoration: none; color: inherit; transition: border-color 0.2s ease, transform 0.2s ease; }

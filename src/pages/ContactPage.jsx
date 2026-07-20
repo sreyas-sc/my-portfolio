@@ -8,7 +8,7 @@ export default function ContactPage() {
   return (
     <div className="cp-root">
       <style>{`
-        .cp-root { max-width: 780px; margin: 0 auto; padding: 32px 24px 64px; color: var(--text); font-family: 'Inter', sans-serif; }
+        .cp-root { max-width: 1080px; margin: 0 auto; padding: 32px 24px 64px; color: var(--text); font-family: 'Inter', sans-serif; }
         .cp-root h1 { font-family: 'JetBrains Mono', monospace; font-size: 22px; margin: 0 0 12px; }
         .cp-root p { color: var(--text-muted); font-size: 15px; margin: 0 0 28px; max-width: 440px; line-height: 1.6; }
         .cp-list { display: flex; flex-direction: column; gap: 10px; }

@@ -17,7 +17,7 @@ export default function NavBar() {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          max-width: 780px;
+          max-width: 1080px;
           margin: 0 auto;
           padding: 20px 24px 0;
           font-family: 'JetBrains Mono', monospace;

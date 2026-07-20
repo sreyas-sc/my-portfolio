@@ -12,7 +12,7 @@ export default function Footer() {
           display: flex;
           gap: 20px;
           flex-wrap: wrap;
-          max-width: 780px;
+          max-width: 1080px;
           margin: 56px auto 0;
           padding: 20px 24px 32px;
           border-top: 1px solid var(--border);

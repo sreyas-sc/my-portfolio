@@ -242,7 +242,7 @@ function PersonalView() {
 const CSS = `
 .pf-root {
   position: relative;
-  max-width: 780px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 32px 24px 24px;
   color: var(--text);
