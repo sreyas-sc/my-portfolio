@@ -85,7 +85,7 @@ const SKILLS = [
 const HOBBIES = [
   {
     icon: Camera,
-    title: "Film photography",
+    title: "Wanderlust photography",
     desc: "Mostly a Pentax K1000 and whatever expired film I can find.",
   },
   {

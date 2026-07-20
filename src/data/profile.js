@@ -145,11 +145,23 @@ export const CONTACT = {
 // the file at public/media/photography/shot-01.jpg
 export const MEDIA_BY_HOBBY = {
   "Film photography": [
-    { type: "image", src: "/media/photography/shot-01.jpg", caption: "Kochi backwaters, Kodak Gold 200" },
-    { type: "image", src: "/media/photography/shot-02.jpg", caption: "Old town, early morning light" },
-    { type: "video", src: "/media/photography/clip-01.mp4", poster: "/media/photography/clip-01-poster.jpg", caption: "Developing a roll at home" },
-    { type: "image", src: "/media/photography/shot-03.jpg", caption: "Fish market, overexposed on purpose" },
-    { type: "image", src: "/media/photography/shot-04.jpg", caption: "Rain on the balcony" },
+    { type: "image", src: "/media/photography/sreyas.jpg"},
+    { type: "image", src: "/media/photography/p02.jpg"},
+    // { type: "image", src: "/media/photography/p02.jpg"},
+    { type: "image", src: "/media/photography/p03.jpg"},
+    { type: "image", src: "/media/photography/p04.jpg"},
+    { type: "image", src: "/media/photography/p05.jpg"},
+    { type: "image", src: "/media/photography/p06.jpg"},
+    { type: "image", src: "/media/photography/p07.jpg"},
+    { type: "image", src: "/media/photography/p07.jpg"},
+    { type: "image", src: "/media/photography/p08.jpg"},
+    { type: "image", src: "/media/photography/p09.jpg"},
+    { type: "image", src: "/media/photography/p10.jpg"},
+    { type: "image", src: "/media/photography/p11.jpg"},
+    { type: "image", src: "/media/photography/p12.jpg"},
+    { type: "image", src: "/media/photography/p13.jpg"},
+    { type: "image", src: "/media/photography/p14.jpg"},
+    { type: "image", src: "/media/photography/p15.jpg"},
     { type: "image", src: "/media/photography/shot-05.jpg", caption: "Self portrait, mirror, K1000" },
   ],
 };
