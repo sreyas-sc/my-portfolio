@@ -61,21 +61,21 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    name: "waypoint",
-    tag: "distributed systems",
-    desc: "A lightweight job scheduler with at-least-once delivery guarantees, written in Go.",
+    name: "Complete Summarizer",
+    tag: "Machine Learning",
+    desc: "A machine learning application developed using Python and Flask, designed to summarize the contents of YouTube videos, text, PDFs, and websites",
     link: "#",
   },
   {
-    name: "shelfspace",
-    tag: "full-stack",
-    desc: "Self-hosted media library with a React front end and a Rust indexing engine.",
+    name: "PharmaLocator & Health Manager",
+    tag: "Flutter",
+    desc: "A Flutter application to find the nearest pharmacies within a range of 10 Kilometers, order medicine online and for medicine management",
     link: "#",
   },
   {
-    name: "tinygrad-notes",
-    tag: "ml infra",
-    desc: "Annotated walkthrough of a minimal autograd engine, built while learning ML internals.",
+    name: "Automated Portfolio website developer",
+    tag: "React",
+    desc: " A React application that helps make personalized websites with a bunch of templates with customization.",
     link: "#",
   },
 ];
@@ -133,9 +133,9 @@ export const PROFILE_PHOTO = "/media/sreyas.jpg";
 export const CONTACT = {
   email: "sreyas.sc@gmail.com",
   github: "https://github.com/sreyas-sc",
-  linkedin: "https://linkedin.com/in/sreyas-sc",
+  linkedin: "https://www.linkedin.com/in/sreyas-s-27857a205",
   instagram: "https://instagram.com/sreyas.s_",
-  whatsapp: "wa.me/919446155555",
+  whatsapp: "https://wa.me/918111904512?Hey",
 };
 
 // Media shown in the Instagram-style gallery when a hobby card is clicked.
