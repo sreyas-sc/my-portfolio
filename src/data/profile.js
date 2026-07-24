@@ -64,19 +64,19 @@ export const PROJECTS = [
     name: "Complete Summarizer",
     tag: "Machine Learning",
     desc: "A machine learning application developed using Python and Flask, designed to summarize the contents of YouTube videos, text, PDFs, and websites",
-    link: "#",
+    link: "https://github.com/sreyas-sc",
   },
   {
     name: "PharmaLocator & Health Manager",
     tag: "Flutter",
     desc: "A Flutter application to find the nearest pharmacies within a range of 10 Kilometers, order medicine online and for medicine management",
-    link: "#",
+    link: "https://github.com/sreyas-sc",
   },
   {
     name: "Automated Portfolio website developer",
     tag: "React",
     desc: " A React application that helps make personalized websites with a bunch of templates with customization.",
-    link: "#",
+    link: "https://github.com/sreyas-sc",
   },
 ];
 
