@@ -33,7 +33,7 @@ export default function ContactPage() {
         <a className="cp-row" href={CONTACT.whatsapp}>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15a2 2 0 0 1-2 2h-1l-1 1v-1a2 2 0 0 1-2-2v-1a2 2 0 0 1 2-2h1l1-1v1a2 2 0 0 1 2 2v1z"></path><path d="M17.5 11.5a5.5 5.5 0 1 0-11.001-.001A5.5 5.5 0 0 0 17.5 11.5z"></path><path d="M12 7v4l3 3"></path></svg> +91 81119 04512
         </a>
-        <a className="cp-row" href="/media/sreyas.pdf" download>
+        <a className="cp-row" href="https://drive.google.com/file/d/1lARc3xCKV6UGEHzfWhtJXXXToUEp8-Fq/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15a2 2 0 0 1-2 2h-1l-1 1v-1a2 2 0 0 1-2-2v-1a2 2 0 0 1 2-2h1l1-1v1a2 2 0 0 1 2 2v1z"></path><path d="M17.5 11.5a5.5 5.5 0 1 0-11.001-.001A5.5 5.5 0 0 0 17.5 11.5z"></path><path d="M12 7v4l3 3"></path></svg> Download Resume
         </a>
       </div>
