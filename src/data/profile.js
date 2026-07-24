@@ -1,12 +1,11 @@
 // src/data/profile.js
 // All your content lives here. Edit freely — nothing below this file needs to change.
-
 export const PROFILE = {
   name: "Sreyas",
   role: "Software Engineer",
   location: "Kochi, India",
   blurb:
-    "I build fast, reliable web systems. Backend-leaning, but I don't flinch at a CSS grid.",
+    "Software Engineer with 3+ years of professional experience building scalable web applications, cloud-native solutions, and DevOps automation. Experienced across backend development, AWS, CI/CD, and modern web technologies, with a passion for building secure, reliable, and high-performance software.",
 };
 
 export const EXPERIENCE = [
