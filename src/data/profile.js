@@ -152,7 +152,7 @@ export const MEDIA_BY_HOBBY = {
     { type: "image", src: "/media/photography/p04.jpg"},
     { type: "image", src: "/media/photography/p05.jpg"},
     { type: "image", src: "/media/photography/p06.jpg"},
-    { type: "image", src: "/media/photography/p07.jpg"},
+    // { type: "image", src: "/media/photography/p07.jpg"},
     { type: "image", src: "/media/photography/p07.jpg"},
     { type: "image", src: "/media/photography/p08.jpg"},
     { type: "image", src: "/media/photography/p09.jpg"},
