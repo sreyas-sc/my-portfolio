@@ -1,5 +1,3 @@
-// src/data/profile.js
-// All your content lives here. Edit freely — nothing below this file needs to change.
 export const PROFILE = {
   name: "Sreyas",
   role: "Software Engineer",
@@ -111,12 +109,36 @@ export const SKILLS = [
 ];
 
 export const HOBBIES = [
-  { icon: "Camera", title: "Film photography", desc: "Mostly a Pentax K1000 and whatever expired film I can find." },
-  { icon: "Mountain", title: "Bouldering", desc: "V4-ish on a good day. Bad knees, worse footwork." },
-  { icon: "ChefHat", title: "Cooking", desc: "Currently deep in a sourdough phase. Ask me about hydration ratios." },
-  { icon: "Music", title: "Making beats", desc: "Ableton on weekends. Nothing released, everything half-finished." },
-  { icon: "BookOpen", title: "Reading", desc: "Sci-fi and systems books, in roughly equal measure." },
-  { icon: "Gamepad2", title: "Chess", desc: "~1400 rapid. Still fall for the same three openings." },
+  {
+    icon: "Camera",
+    title: "Photography",
+    desc: "I rarely ride without my camera—most of my photos are from mountain roads, misty ghats, and weekend adventures."
+  },
+  {
+    icon: "Mountain",
+    title: "Hiking",
+    desc: "Exploring trails, discovering scenic viewpoints, and enjoying time in nature whenever possible.",
+  },
+  {
+    icon: "Film",
+    title: "Movies",
+    desc: "A fan of films across genres, from timeless classics to the latest releases, always looking for a great story.",
+  },
+  {
+    icon: "Music",
+    title: "Old Malayalam Music",
+    desc: "Enjoying timeless Malayalam melodies that never lose their charm and continue to inspire.",
+  },
+  {
+    icon: "Dumbbell",
+    title: "Gym",
+    desc: "Committed to staying active through strength training and maintaining a healthy, consistent lifestyle.",
+  },
+  {
+    icon: "Bike",
+    title: "Bike Riding",
+    desc: "Love long rides that offer a chance to unwind, explore new places, and enjoy the open road.",
+  },
 ];
 
 export const NOW = [
@@ -143,7 +165,7 @@ export const CONTACT = {
 // served from the root, e.g. "/media/photography/shot-01.jpg" maps to
 // the file at public/media/photography/shot-01.jpg
 export const MEDIA_BY_HOBBY = {
-  "Film photography": [
+  "Photography": [
     { type: "image", src: "/media/photography/sreyas.jpg"},
     { type: "image", src: "/media/photography/p02.jpg"},
     // { type: "image", src: "/media/photography/p02.jpg"},

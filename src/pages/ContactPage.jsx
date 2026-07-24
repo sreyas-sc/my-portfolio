@@ -22,10 +22,19 @@ export default function ContactPage() {
           <Mail size={16} /> {CONTACT.email}
         </a>
         <a className="cp-row" href={CONTACT.github}>
-          <FaGithub size={16} /> github.com/yourhandle
+          <FaGithub size={16} /> github.com/sreyas-sc
         </a>
         <a className="cp-row" href={CONTACT.linkedin}>
-          <FaLinkedin size={16} /> linkedin.com/in/yourhandle
+          <FaLinkedin size={16} /> linkedin.com/in/sreyas-s-27857a205
+        </a>
+        <a className="cp-row" href={CONTACT.instagram}>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg> instagram.com/sreyas.s_
+        </a>
+        <a className="cp-row" href={CONTACT.whatsapp}>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15a2 2 0 0 1-2 2h-1l-1 1v-1a2 2 0 0 1-2-2v-1a2 2 0 0 1 2-2h1l1-1v1a2 2 0 0 1 2 2v1z"></path><path d="M17.5 11.5a5.5 5.5 0 1 0-11.001-.001A5.5 5.5 0 0 0 17.5 11.5z"></path><path d="M12 7v4l3 3"></path></svg> +91 81119 04512
+        </a>
+        <a className="cp-row" href="/media/sreyas.pdf" download>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15a2 2 0 0 1-2 2h-1l-1 1v-1a2 2 0 0 1-2-2v-1a2 2 0 0 1 2-2h1l1-1v1a2 2 0 0 1 2 2v1z"></path><path d="M17.5 11.5a5.5 5.5 0 1 0-11.001-.001A5.5 5.5 0 0 0 17.5 11.5z"></path><path d="M12 7v4l3 3"></path></svg> Download Resume
         </a>
       </div>
     </div>

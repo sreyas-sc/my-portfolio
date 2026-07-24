@@ -1,4 +1,4 @@
-// src/pages/Home.jsx
+
 import React, { useState, useRef, useEffect } from "react";
 import {
   ExternalLink,
@@ -9,12 +9,15 @@ import {
   Music,
   ChefHat,
   Gamepad2,
+  Dumbbell,
+  Bike,
+  Film, 
   Terminal,
 } from "lucide-react";
 import { PROFILE, EXPERIENCE, EDUCATION, PROJECTS, SKILLS, HOBBIES, NOW, MEDIA_BY_HOBBY, PROFILE_PHOTO } from "../data/profile";
 import MediaGridModal from "../components/MediaGridModal";
 
-const ICONS = { Camera, Mountain, ChefHat, Music, BookOpen, Gamepad2 };
+const ICONS = { Camera, Mountain, ChefHat, Music, BookOpen, Gamepad2  , Bike, Dumbbell, Film };
 
 export default function Home() {
   const [mode, setMode] = useState("professional");
@@ -216,7 +219,7 @@ function PersonalView() {
         </div>
       </section>
 
-      <section className="pf-section">
+      {/* <section className="pf-section">
         <h2>Right now</h2>
         <div className="pf-now">
           {NOW.map((n) => (
@@ -226,7 +229,7 @@ function PersonalView() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {openHobby && (
         <MediaGridModal

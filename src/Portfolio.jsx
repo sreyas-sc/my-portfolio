@@ -11,6 +11,9 @@ import {
   Music,
   ChefHat,
   Gamepad2,
+  Bike,
+  Film,
+  Dumbbell,
   Terminal,
 } from "lucide-react";
 
@@ -84,9 +87,9 @@ const SKILLS = [
 
 const HOBBIES = [
   {
-    icon: Camera,
-    title: "Wanderlust photography",
-    desc: "Mostly a Pentax K1000 and whatever expired film I can find.",
+    icon: "Camera",
+    title: "Photography",
+    desc: "I rarely ride without my camera—most of my photos are from mountain roads, misty ghats, and weekend adventures."
   },
   {
     icon: Mountain,
@@ -109,9 +112,9 @@ const HOBBIES = [
     desc: "Sci-fi and systems books, in roughly equal measure.",
   },
   {
-    icon: Gamepad2,
-    title: "Chess",
-    desc: "~1400 rapid. Still fall for the same three openings.",
+    icon: Bike,
+    title: "Biking",
+    desc: "Ride my bike through the mountains and cities.",
   },
 ];
 
